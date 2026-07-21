@@ -603,6 +603,8 @@ This section defines the scheduling system used by the application.
 
 The schedule is the core of Mizu Care and determines what tasks are shown each day, who is responsible, and how progress is calculated.
 
+Implementation Note: The schedules shown below are presented separately for readability. Internally, the application stores each task with its applicable day(s) (e.g., Mon–Fri, Sat, Sun, Fri only) and dynamically generates the day's schedule.
+
 ---
 
 # 1. Schedule Types
